@@ -6,6 +6,8 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserNameComponent } from './components/user-name/user-name.component';
 import { EmailListComponent } from './components/email-list/email-list.component';
+import { EmailRowComponent } from './components/email-row/email-row.component';
+import { SideNavigationComponent } from './components/side-navigation/side-navigation.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { EmailListComponent } from './components/email-list/email-list.component
     NxWelcomeComponent,
     UserNameComponent,
     EmailListComponent,
+    EmailRowComponent,
+    SideNavigationComponent,
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
